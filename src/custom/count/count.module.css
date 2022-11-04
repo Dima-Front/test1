@@ -1,0 +1,44 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14px;
+    border: 1px solid #0084CA;
+    border-radius: 4px;
+
+}
+
+.body div {
+    color: #0084CA;
+}
+
+.body span {
+   margin-top: 25%;
+}
+
+.minus {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    margin-right: 14px;
+}
+
+.minus img {
+
+    width: 14px;
+    height: 2px;
+}
+
+.plus {
+    display: flex;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    margin-left: 14px;
+}
+
+.body span {
+    margin-right: 10px;
+}

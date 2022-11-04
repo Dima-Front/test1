@@ -1,5 +1,5 @@
 .body {
-    width: 100%;
+    width: 946px;
     height: 124px;
     background: #FFFFFF;
     box-shadow: 0 4px 9px rgba(0, 0, 0, 0.15);
@@ -29,11 +29,15 @@ margin-bottom: 52px;
 .priceGroup {
     margin-top: 35px;
     display: flex;
+    margin-left: 200px;
+
 
 }
 .basket {
     width: 52px;
     height: 52px;
     display: flex;
+    cursor: pointer;
 
 }
+

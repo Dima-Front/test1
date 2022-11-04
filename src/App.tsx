@@ -1,19 +1,20 @@
 import React from 'react';
 import Header from "./components/header/Header";
-import Aside from "./components/aside/Aside";
-import Main from "./components/main/Main";
 
-function App() {
+import {observer} from "mobx-react-lite";
+import {Outlet} from "react-router-dom";
+
+
+const App: React.FC = () => {
+
     return (
-        <div>
+        <div className='main-body'>
             <Header/>
-            <div className='page-body' >
-                <Aside/>
-                <Main/>
-            </div>
-
+            <Outlet />
         </div>
     );
 }
 
-export default App;
+export default observer(App);
+
+
