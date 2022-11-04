@@ -17,6 +17,7 @@ const Layout: React.FC = observer(() => {
     const showCart = priceList.filter((card: any) => card.cardCount > 0)
 
     let navigate = useNavigate();
+    
 
     useEffect(() => {
         cardStore.getPriceList()
